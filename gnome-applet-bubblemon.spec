@@ -12,8 +12,8 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gnome-core-devel
 BuildRequires:	libgtop-devel
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	bubblemon
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sysconfdir	/etc/X11/GNOME
 
