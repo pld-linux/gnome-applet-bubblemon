@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.student.nada.kth.se/~d92-jwa/code/bubblemon/bubblemon-%{version}.tar.gz
+# Source0-md5:	f4888d1144ed0328895f1d17a5252d90
 URL:		http://www.nada.kth.se/~d92-jwa/code/
 BuildRequires:	autoconf
 BuildRequires:	automake
