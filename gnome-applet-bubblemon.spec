@@ -2,7 +2,7 @@ Summary:	Bubbling Load Monitoring Applet for the GNOME Panel
 Summary(pl):	Aplet z bulgocz±cym monitorem obci±¿enia dla panelu GNOME
 Name:		bubblemon
 Version:	1.2.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.student.nada.kth.se/~d92-jwa/code/bubblemon/%{name}-%{version}.tar.gz
@@ -39,14 +39,12 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT \
 	gnulocaledir=/tmp/bubblemon-1.2.0%{_datadir}/locale
 
-gzip -9nf AUTHORS FAQ README FAQ PROFILING TRANSLATIONS TODO
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTHORS FAQ README FAQ PROFILING TRANSLATIONS TODO
 %attr(755,root,root) %{_bindir}/bubblemon-gnome1
 %{_sysconfdir}/CORBA/servers/bubblemon-gnome1.gnorba
 %{_datadir}/applets/Monitors/bubblemon-gnome1.desktop
