@@ -1,7 +1,7 @@
 Summary:	Bubbling Load Monitoring Applet for the GNOME Panel
 Summary(pl):	Aplet z bulgocz±cym monitorem obci±¿enia dla panelu GNOME
 Name:		gnome-applet-bubblemon
-Version:	1.2.1
+Version:	1.2.3
 Release:	1
 License:	GPL
 Group:		X11/Applications
