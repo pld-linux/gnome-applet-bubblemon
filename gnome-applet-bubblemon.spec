@@ -1,5 +1,5 @@
 Summary:	Bubbling Load Monitoring Applet for the GNOME Panel
-Summary(pl):	Aplet z bulgocz±cym monitorem obci±¿enia dla panelu GNOME
+Summary(pl.UTF-8):   Aplet z bulgoczÄ…cym monitorem obciÄ…Å¼enia dla panelu GNOME
 Name:		gnome-applet-bubblemon
 Version:	1.2.6
 Release:	1
@@ -23,9 +23,9 @@ bubbling liquid. The latest version is available off
 http://www.nada.kth.se/~d92-jwa/code/. Choose Add
 Applet->Monitors->Bubbling Load Monitor in your GNOME Panel.
 
-%description -l pl
-To jest aplet panelu GNOME wy¶wietlaj±cy obci±¿enie procesora i
-pamiêci jako bulgocz±c± ciecz. Dodaæ aplet do panelu mo¿na poprzez
+%description -l pl.UTF-8
+To jest aplet panelu GNOME wyÅ›wietlajÄ…cy obciÄ…Å¼enie procesora i
+pamiÄ™ci jako bulgoczÄ…cÄ… ciecz. DodaÄ‡ aplet do panelu moÅ¼na poprzez
 Add Applet->Monitors->Bubbling Load Monitor w paneli GNOME.
 
 %prep
