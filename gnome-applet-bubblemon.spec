@@ -53,7 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f bubblemon.lang
 %defattr(644,root,root,755)
-%doc AUTHORS FAQ README FAQ PROFILING TRANSLATIONS TODO
+%doc AUTHORS FAQ README PROFILING TRANSLATIONS TODO
 %attr(755,root,root) %{_bindir}/bubblemon-gnome1
 %{_sysconfdir}/CORBA/servers/bubblemon-gnome1.gnorba
 %{_mandir}/man1/bubblemon-gnome1.1*
